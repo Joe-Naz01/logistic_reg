@@ -19,4 +19,7 @@ The goal of this project is to visualize how varying the regularization strength
    ```bash
    git clone https://github.com/Joe-Naz01/logistic_reg.git
    cd logistic_reg
-   pip install requirements.txt
+   python -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   jupyter notebook
