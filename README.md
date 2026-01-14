@@ -21,5 +21,4 @@ The goal of this project is to visualize how varying the regularization strength
    cd logistic_reg
    python -m venv .venv
    source .venv/bin/activate
-   pip install -r requirements.txt
    jupyter notebook
